@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    font-family:"Montserrat", sans-serif;
+};
+
+
+.header-logo {
+    display: inline-block;
+    width: 90%;
+    padding: 10px 30px;
+
+
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: #005a48;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: inline-block;
+    width: 90%;
+
+}
+
+.nav-items {
+    display: inline-block;
+    width: calc(70% - 100px);
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0px  10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #005a48;
+    font-weight: 600;
+}
+
+.nav-search{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.nav-search__el {
+    background: #c5c5c5;
+    width: 40%;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+}
+
+.search-input {
+    background: #c5c5c5;
+    border: none;
+    flex-basis: 60%;
+    outline: none;
+}
+
+.nav-search__el i {
+    flex-basis: 40%;
+}
+
+.slider-container{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url('https://images.pexels.com/photos/931887/pexels-photo-931887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+
+    height: 400px;
+display: flex;
+justify-content: center;
+
+}
+
+.glide__container{
+    width: 60%;
+    margin: auto;
+}
+
+.glide__slide{
+    border-radius: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.glide__slide img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: #fff solid 6px;
+}
+
+.glide__slide h4 {
+    color: #ffff;
+    font-size: 0.9rem;
+    margin: 10px;
+}
+
+.glide__arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.glide__arrow{
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.glide__arrow:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.footer {
+    text-align: left;
+    border: solid;
+}
